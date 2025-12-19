@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: "https://taskmanagementsystem-nu.vercel.app",
   credentials: true
 }));
 
