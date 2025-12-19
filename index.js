@@ -6,7 +6,7 @@ const taskRoutes = require('./routes/taskRoutes');
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://taskmanagementsystem-nu.vercel.app',
   credentials: true
 }));
 app.use(express.json());

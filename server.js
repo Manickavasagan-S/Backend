@@ -1,12 +1,7 @@
 const app = require('./index');
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
-const cors = require('cors');
 
-app.use(cors({
-  origin: "https://taskmanagementsystem-nu.vercel.app",
-  credentials: true
-}));
 
 dotenv.config({ path: require('path').join(__dirname, 'config.env') });
 
